@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Karl Diril</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Karl Diril</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/Karl0259?tab=repositories" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/karl-diril-669251397/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:karldiril6@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Me contacter</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Partie 1 : Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Salut, moi c'est Karl !</h2>
+                <p>Actuellement en BUT Info à l'USPN en premiere année, j'ai commencé le dev par le C++ parce que j'aime comprendre ce qui se passe "sous le capot". <br>Entre mes cours et mes projets perso, j'ai passé pas mal de temps sur Raylib pour coder des jeux comme mon Lunar Lander ou un Snake.
+
+                    <br>Cela m'a permis de bien poncer la POO et la structure de projet (coucou CMake). Aujourd'hui, je m'éclate à ramener cette logique sur le Web et je cherche une alternance pour passer au niveau supérieur sur des projets concrets.</p>
+
+                <div class="liens">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projets">
+                        <i class="fa-solid fa-rocket"></i>
+                        <span>Projets</span>
+                    </a>
+                </div>
+            </div>
+            <div class="visage">
+                <img src="images/portvisage.webp" alt="Karl Diril Visage">
+            </div>
+        </section>
+        <!-- Partie 2 : Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Durant mon début de début de cursus en BUT informatique et mes projets persos, j'ai appris pas mal de languages / outils, en voici un aperçu des principaux.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/programming languages/c++.svg" alt="C++ logo">
+                    <span>C++</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/programming languages/c.svg" alt="C logo">
+                    <span>C</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/programming languages/java.svg" alt="Java logo">
+                    <span>Java</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/programming languages/javascript.svg" alt="Java logo">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/programming languages/python.svg" alt="Python logo">
+                    <span>Python</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/others/html.svg" alt="HTML logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/others/css.svg" alt="CSS logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/others/git.svg" alt="Git logo">
+                    <span>Git</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/databases/postgresql.svg" alt="postgresql logo">
+                    <span>postgresql</span>
+                </div>
+            </div>
+        </section>
+        <!-- Partie 3 : Projets -->
+        <section id="projets" class="projets-section">
+            <h2>Mes projets</h2>
+            <div class="text">
+                <p>Voici une sélection de mes projets récents, réalisés en cours ou sur mon temps libre.</p>
+            </div>
+
+            <div class="projets-grid">
+                
+                <div class="projet-card">
+                    <div class="projet-img-container">
+                        <img src="images/projets/lunar-lander.png" alt="Lunar lander">
+                        <span class="badge badge-tech"><i class="fa-solid fa-code"></i> C++ / Raylib</span>
+                        <span class="badge badge-status-fini">Terminé</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Lunar lander</h3>
+                        <p>Création d'un moteur graphique et physique avec Raylib et CMake.
+                            <br>Ce projet m'a notamment appris à générer procéduralement un décor.
+                        </p>
+                        <div class="projet-tags">
+                            <span class="tag">Arcade</span>
+                            <span class="tag">Physique</span>
+                            <span class="tag">Moteur</span>
+                            <span class="tag">CMake</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/karldiril/Lunar-lander" target="_blank" class="btn-github">
+                                <i class="fa-brands fa-github"></i> Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet-card">
+                    <div class="projet-img-container">
+                        <img src="images/projets/casse-brique.png" alt="Casse-brique">
+                        <span class="badge badge-tech"><i class="fa-solid fa-code"></i> C++ / Raylib</span>
+                        <span class="badge badge-status-fini">Terminé</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Casse-brique</h3>
+                        <p>Reproduction du jeu classique d'arcade. Ce projet m'a permis d'approfondir la POO et la physique 2D basique.</p>
+                        <div class="projet-tags">
+                            <span class="tag">Arcade</span>
+                            <span class="tag">Physique</span>
+                            <span class="tag">2D</span>
+                            <span class="tag">CMake</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/karldiril/Casse-brique" target="_blank" class="btn-github">
+                                <i class="fa-brands fa-github"></i> Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet-card">
+                    <div class="projet-img-container">
+                        <img src="images/projets/snake.png" alt="Snake">
+                        <span class="badge badge-tech"><i class="fa-solid fa-code"></i> C++ / Raylib</span>
+                        <span class="badge badge-status-fini">Terminé</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Snake</h3>
+                        <p>Reproduction du célèbre jeu Snake. L'objectif était de gérer les tiles (dessinés à la main), le delta time, les collisions et les boucles de jeu classiques.</p>
+                        <div class="projet-tags">
+                            <span class="tag">Rétro</span>
+                            <span class="tag">Algorithmique</span>
+                            <span class="tag">Grilles</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/karldiril/Snake" target="_blank" class="btn-github">
+                                <i class="fa-brands fa-github"></i> Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet-card">
+                    <div class="projet-img-container">
+                        <img src="images/projets/space-invaders.png" alt="Space-invader">
+                        <span class="badge badge-tech"><i class="fa-solid fa-code"></i> C++ / Raylib</span>
+                        <span class="badge badge-status-encours">En cours</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Space invaders</h3>
+                        <p>Reproduction en cours de Space invader. L'objectif est de mettre en pratique ce que j'ai appris sur la POO, la physique et le delta time pour créer ce fameux
+                           classique qui est space invader avec l'implémentation de différentes IA pour les ennemis (machines à états) et un décor en parallaxe.</p>
+                        <div class="projet-tags">
+                            <span class="tag">Moteur de jeu</span>
+                            <span class="tag">Parallaxe</span>
+                            <span class="tag">Fine State Machine</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/karldiril/Space-invaders" target="_blank" class="btn-github">
+                                <i class="fa-brands fa-github"></i> Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="projet-card">
+                    <div class="projet-img-container">
+                        <img src="images/projets/flappy-bird.png" alt="Flappy Bird">
+                        <span class="badge badge-tech"><i class="fa-solid fa-code"></i> C++ / Raylib</span>
+                        <span class="badge badge-status-encours">En cours</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Flappy Bird Clone</h3>
+                        <p>Reproduction en cours de Flappy Bird. L'objectif est d'appliquer la génération procédurale sur un jeu simple qui a bercé mon enfance.</p>
+                        <div class="projet-tags">
+                            <span class="tag">Génération procédurale</span>
+                            <span class="tag">Parallaxe</span>
+                            <span class="tag">CMake</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/karldiril/-Flappy-Bird-Clone" target="_blank" class="btn-github">
+                                <i class="fa-brands fa-github"></i> Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+        <!-- Partie 2 : Contact -->
+        <section id="contact"></section>
+    </main>
+</body>
+</html>
